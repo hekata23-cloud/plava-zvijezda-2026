@@ -10,7 +10,7 @@ import {
   type IndikatorId,
 } from "@/lib/radar-analitika";
 
-export const Route = createFileRoute("/")({
+export const Route = createFileRoute("/radar")({
   head: () => ({
     meta: [
       { title: "Kvote Radar — Kalkulator 6 Indikatora" },
