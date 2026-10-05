@@ -3,7 +3,7 @@
 import { t, type Lang, type Settings, EVENT_BASE, STAT_BASE } from "./data";
 
 export type Inp = Record<string, string>;
-export type Stat = { value: string; label: string; variant?: "gold" | "green" | "red" };
+export type Stat = { value: string; label: string; variant?: "gold" | "green" | "red" | undefined };
 export type ConfLevel = "safe" | "vly" | "ly" | "ry" | "hrk";
 export type Conf = { level: ConfLevel; text: string; cls: string };
 export type Val = {
@@ -20,9 +20,9 @@ export type Res = {
   prob: number;
   conf: Conf;
   stats: Stat[];
-  val?: Val | null;
+  val?: Val | null | undefined;
   /** kvota preporučenog ishoda (ako ju je korisnik unio) */
-  odds?: number;
+  odds?: number | undefined;
   notes?: string[];
   lambda?: { h: number; a: number };
 };
