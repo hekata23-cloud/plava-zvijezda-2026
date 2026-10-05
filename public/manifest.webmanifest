@@ -1,15 +1,30 @@
 {
-  "name": "Kvote Radar — Kalkulator 6 Indikatora",
-  "short_name": "Kvote Radar",
-  "description": "Kalkulator za 6 elitnih protokola analize kvota: BTTS, Over 1.5, Over 2.5, Korneri, Under 3.5 i disciplina.",
+  "name": "Plava Zvijezda 2026 — Nogometna analiza",
+  "short_name": "Plava Zvijezda",
+  "description": "Kvote Radar i napredni nogometni prediktor u jednoj instalabilnoj aplikaciji.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
   "background_color": "#0a0f0d",
   "theme_color": "#0a0f0d",
   "icons": [
-    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
-    { "src": "/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
   ]
 }
